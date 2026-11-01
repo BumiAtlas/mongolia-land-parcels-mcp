@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/mongolia-land-parcels",
+  "title": "Mongolia Land Parcels (eGazar · Газрын нэгж талбар)",
+  "description": "Mongolian eGazar land parcels by parcel id, Cyrillic address or coordinates, with land use.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/mongolia-land-parcels-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/mongolia",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/mongolia"
+    }
+  ]
+}
